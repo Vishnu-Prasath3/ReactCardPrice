@@ -1,0 +1,6 @@
+.app{
+    display: flex;
+    padding: 50px;
+    border-radius: 40px;
+    justify-content: space-between;
+}
