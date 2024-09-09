@@ -25,7 +25,6 @@ export default function ({title,subtitle,freDetails=[],feeDetails=[]}){
             
 </div>
         <button type="button" className="btn btn-primary">button</button>
-      
     </div>
     </>
     )
