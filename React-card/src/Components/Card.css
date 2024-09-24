@@ -11,10 +11,6 @@
     color: #a3a3a3;
 }
 
-.title1{
-
-}
-
 body{
     background-color: rgba(19, 19, 248, 0.748) ;
 }
@@ -25,10 +21,48 @@ body{
     width: 90%;
     height: 10%;
     border-radius: 30px;
+
 }
+.fre-details li:before{
+    content:'✓ ';
+}
+
 ul{
 list-style: none;
 }
-ul li:before{
-       content:'✓ ';
+/* ul li:before */
+      
+
+.btn:hover:active{
+ background-color: azure;
+ color:blue;
 }
+
+.free-details {
+ color:grey;
+}
+.free-details li:before{
+ content: '⤫ ';
+ color: #a3a3a3;
+}
+@media screen and (max-width:600px){
+    .card{
+        width: 300px;
+        height:auto;
+        overflow-y:scroll;
+        scrollbar-width: none;
+        border-radius: 20px;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        font-size: small;
+       }
+       .btn{
+        width: 90%;
+        height: 20%;
+        border-radius: 30px;
+        
+    
+    }
+}
+ 
